@@ -138,11 +138,13 @@ nav.navbar.w3-navbar {
     margin: 0;
 }
 .heading {
-    padding-top: 12%;
+    padding-top: 15%;
+    padding-bottom: 16%;
 }
 .heading h1 {
     margin: auto;
     width: 45%;
+    height: 40%;
     padding: 30px;
     color: #fff;
     font-size: 32px;
