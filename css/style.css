@@ -77,15 +77,15 @@ a:focus, a:hover {
     background-size: cover;
     margin: 10px 0px;
 }
-/*.logo-wrap a {*/
-    /*font-size: 30px;*/
-    /*font-weight: 600;*/
-	/*color: white;*/
-/*}*/
-/*.logo-wrap a:hover {*/
-    /*color: #25dc2c;*/
-    /*-webkit-transition: 0.5s all;*/
-/*}*/
+.logo-wrap a {
+    font-size: 30px;
+    font-weight: 600;
+	color: white;
+}
+.logo-wrap a:hover {
+    color: #25dc2c;
+    -webkit-transition: 0.5s all;
+}
 .nav-wrap {
     /*width: calc( 100% - 310px );*/
 	padding: 10px 0;
@@ -99,7 +99,7 @@ ul.nav li.active a {
     color: #fff;
 }
 .navbar-nav>li>a {
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -938,17 +938,22 @@ h4.price {
 
 @media screen and (max-width: 991px){
 .navbar-header {
-     /*width: 100px;*/
-     display: none;
+     width: 100px;
  }
+    .logo-container{
+        display: none;
+    }
  .w3-socials {
     width: 150px;
      display: none;
  }
  .nav-wrap {
-    width: calc( 100% - 260px);
+    /*width: calc( 100% - 260px);*/
     padding: 10px 0px;
 }
+    .navbar-nav>li>a {
+        font-size: 11px
+    }
 .heading h1 {
     width: 55%;
     padding: 20px;
@@ -1024,8 +1029,11 @@ h4.price {
     display: none;
 }
 .nav-wrap {
-    width: calc( 100% - 110px);
+    /*width: calc( 100% - 110px);*/
 }
+    .navbar-nav>li>a {
+         font-size: 11px
+    }
 	.heading h1 {
     width: 66%;
 	}
@@ -1076,7 +1084,6 @@ a.tabs {
 	
 }
 
-
 @media screen and (max-width: 767px){
 	.container-fluid {
     padding: 0 50px;
@@ -1085,10 +1092,14 @@ a.tabs {
     border: 1px solid #ffffff;
 	top: 15px;
 }
+    .logo-container{
+        display: block;
+    }
 .navbar-header {
     width: 100%;
     text-align: left;
 }
+
 	.w3-hide {
     display: none;
 }
